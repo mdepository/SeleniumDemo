@@ -1,0 +1,64 @@
+==============  Assertify Testing  ==============
+============== Testcase - ASSR_CRJ_TS01_TR01 ==============
+ASSR_CRJ_TS01_TR01 - Entered username 
+ASSR_CRJ_TS01_TR01 - Entered password 
+ASSR_CRJ_TS01_TR01 - Clicked login button 
+ASSR_CRJ_TS01_TR01  - Clicked on  Post Job Request link 
+ASSR_CRJ_TS01_TR01  - Entered JOb Title - Teacher
+ASSR_CRJ_TS01_TR01  - Entered Price  - 200
+ASSR_CRJ_TS01_TR01  - Entered Duration - 60
+ASSR_CRJ_TS01_TR01  - Entered MCQ duration - 2
+ASSR_CRJ_TS01_TR01  - Entered JOb description - Teaching Physics subject
+ASSR_CRJ_TS01_TR01  - Entered Skill - Physics
+ASSR_CRJ_TS01_TR01  - Entered Job Criteria - 70% questions answered correctly 
+ASSR_CRJ_TS01_TR01  - Entered Job Offered - Teacher
+ASSR_CRJ_TS01_TR01  - Entered Assertifications - PhysicsTeacher
+ASSR_CRJ_TS01_TR01  - Entered Important Info - Bond of 1 year
+ASSR_CRJ_TS01_TR01  - Entered MicroSkill - English
+ASSR_CRJ_TS01_TR01  - clicked add skill button 
+ASSR_CRJ_TS01_TR01  - Entered Question Limit (Pre-assessments) - 20
+ASSR_CRJ_TS01_TR01  - Entered Question Limit (Placements Tests) - 10
+ASSR_CRJ_TS01_TR01  - Clicked add skill button for micro skills 
+============== Testcase - ASSR_TAGJ_TS01_TR01 ==============
+ASSR_TAGJ_TS01_TR01  - Clicked on  Tag a Job link 
+ASSR_TAGJ_TS01_TR01  - Selected catefory -  Finance
+ASSR_TAGJ_TS01_TR01  - Clicked on Submit Request link
+ASSR_TAGJ_TS01_TR01  - Entered Job Title - RetailAccountant
+ASSR_TAGJ_TS01_TR01  - Verify is skill selected is as expected 
+Skill to tag is NOT as expected
+ASSR_TAGJ_TS01_TR01  - Clicked on  Tag Job button 
+ASSR_TAGJ_TS01_TR01  - Clicked on  Manage Job link 
+ASSR_TAGJ_TS01_TR01  - Clicked on  Active Jobs Request link 
+Number of jobs  - 1
+Number of children 0
+============== Testcase - ASSR_CRJ_TS01_TR02 ==============
+ASSR_CRJ_TS01_TR02  - Clicked on  Post Job Request link 
+ASSR_CRJ_TS01_TR02  - Entered JOb Title - Accountant
+ASSR_CRJ_TS01_TR02  - Entered Price  - 100
+ASSR_CRJ_TS01_TR02  - Entered Duration - 30
+ASSR_CRJ_TS01_TR02  - Entered MCQ duration - 2
+ASSR_CRJ_TS01_TR02  - Entered JOb description - Efficiency of calculation, Analytical techniques
+ASSR_CRJ_TS01_TR02  - Entered Skill - Account Finance
+ASSR_CRJ_TS01_TR02  - Entered Skill - Taxation Finance
+ASSR_CRJ_TS01_TR02  - Entered Job Criteria - 70% questions answered correctly 
+ASSR_CRJ_TS01_TR02  - Entered Job Offered - Accountant
+ASSR_CRJ_TS01_TR02  - Entered Assertifications - AccountancyExpert
+ASSR_CRJ_TS01_TR02  - Entered Important Info - Bond of 1 year
+ASSR_CRJ_TS01_TR02  - Entered MicroSkill - English
+ASSR_CRJ_TS01_TR02  - clicked add skill button 
+ASSR_CRJ_TS01_TR02  - Entered Question Limit (Pre-assessments) - 20
+ASSR_CRJ_TS01_TR02  - Entered Question Limit (Placements Tests) - 10
+ASSR_CRJ_TS01_TR02  - Clicked add skill button for micro skills 
+Number of jobs  - 1
+Number of children 0
+ Job with title Accountantand skill Account Finance is NOT created.
+testCreateJob(co.selenium.demo.AssertifyAppSuite): no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/div[3]/div/div[1]/div[1]/div/div[1]/div/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'ASHISH-PC', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [337bd50408205133ca6951e6959ca687, findElement {using=xpath, value=/html/body/div[1]/div[1]/div[3]/div/div[1]/div[1]/div/div[1]/div/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ashish\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59128/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 337bd50408205133ca6951e6959ca687
+false
